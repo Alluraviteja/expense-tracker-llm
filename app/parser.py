@@ -1,69 +1,60 @@
-import spacy
-import re
-from datetime import datetime
+"""Expense parser using custom transformer model."""
 
-# Load spaCy English model
-nlp = spacy.load("en_core_web_sm")
+from typing import Dict, Any, Optional
+from pathlib import Path
+import torch
+from app.model import ExpenseModel
+from app.dataset import ExpenseDataset
 
-# Simple keyword mapping for categories
-CATEGORY_MAP = {
-    "groceries": "food",
-    "lunch": "food",
-    "dinner": "food",
-    "restaurant": "food",
-    "rent": "living",
-    "utilities": "living",
-    "electricity": "living",
-    "uber": "transport",
-    "gas": "transport",
-    "train": "transport",
-}
 
-# Keywords to detect recurrence
-RECURRENCE_KEYWORDS = {
-    "daily": "DAILY",
-    "every day": "DAILY",
-    "weekly": "WEEKLY",
-    "every week": "WEEKLY",
-    "monthly": "MONTHLY",
-    "this month": "MONTHLY",
-    "yearly": "YEARLY",
-    "annually": "YEARLY",
-}
+class ExpenseParser:
+    """Parser class for expense tracking."""
 
-# Extract amount from string using regex
-def extract_amount(text):
-    match = re.search(r'\$?(\d+(\.\d{1,2})?)', text)
-    return float(match.group(1)) if match else 0.0
+    def __init__(self, model_dir: str = "models"):
+        self.dataset = ExpenseDataset()
 
-# Detect recurrence from known keywords
-def detect_recurrence(text):
-    for keyword, freq in RECURRENCE_KEYWORDS.items():
-        if keyword in text.lower():
-            return True, freq
-    return False, "NONE"
+        # Try to load trained model, or create new one
+        model_path = Path(model_dir)
+        if model_path.exists() and (model_path / "model.pt").exists():
+            # Load the saved state
+            checkpoint = torch.load(model_path / "model.pt")
 
-# Map known keywords to categories
-def extract_category_and_description(text):
-    for keyword, category in CATEGORY_MAP.items():
-        if keyword in text.lower():
-            return category, keyword
-    return "other", "expense"
+            # Create model instance
+            self.model = ExpenseModel(
+                model_name=checkpoint['config']['model_name'],
+                num_categories=checkpoint['config']['num_categories']
+            )
 
-# Main parser function
-def parse_expense(text):
-    doc = nlp(text)
+            # Load state dict and tokenizer
+            self.model.load_state_dict(checkpoint['model_state_dict'])
+            self.model.tokenizer = checkpoint['tokenizer']
+        else:
+            print("Warning: No trained model found. Using untrained model.")
+            self.model = ExpenseModel(
+                num_categories=len(self.dataset.CATEGORIES))
 
-    amount = extract_amount(text)
-    is_recurring, recurrence_type = detect_recurrence(text)
-    category, description = extract_category_and_description(text)
-    date = datetime.utcnow().isoformat() + "Z"  # ISO format date
+    def parse_expense(self, text: str) -> Dict[str, Any]:
+        """Parse expense text and return structured data."""
+        # Get predictions from model
+        prediction = self.model.predict(text, self.dataset.CATEGORIES)
 
-    return {
-        "description": description,
-        "amount": amount,
-        "category": category,
-        "date": date,
-        "isRecurring": is_recurring,
-        "recurrenceType": recurrence_type
-    }
+        # Add expense to dataset
+        self.dataset.add_expense(
+            text=text,
+            amount=prediction["amount"],
+            category=prediction["category"]["label"],
+            date=prediction["date"],
+            is_recurring=prediction["is_recurring"]
+        )
+
+        return prediction
+
+    def get_stats(self) -> Dict[str, Any]:
+        """Get expense statistics."""
+        return self.dataset.get_expense_stats()
+
+
+def parse_expense(text: str) -> Dict[str, Any]:
+    """Convenience function to parse a single expense."""
+    parser = ExpenseParser()
+    return parser.parse_expense(text)

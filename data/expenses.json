@@ -1,0 +1,818 @@
+[
+  {
+    "text": "Spent $25.50 on lunch at cafeteria",
+    "amount": 25.5,
+    "category": "health",
+    "date": "2025-06-01T17:17:07.576032",
+    "is_recurring": true,
+    "created_at": "2025-06-01T17:17:07.578209"
+  },
+  {
+    "text": "Paid $150 for monthly train pass",
+    "amount": 150.0,
+    "category": "other",
+    "date": "2025-06-01T17:17:09.115915",
+    "is_recurring": false,
+    "created_at": "2025-06-01T17:17:09.116200"
+  },
+  {
+    "text": "Bought groceries for $85.75 on March 15, 2024",
+    "amount": 85.75,
+    "category": "food",
+    "date": "2024-03-15T00:00:00",
+    "is_recurring": true,
+    "created_at": "2025-06-01T17:17:09.943887"
+  },
+  {
+    "text": "Netflix subscription $15.99 charged on 2024-03-20",
+    "amount": 15.99,
+    "category": "utilities",
+    "date": "2024-03-20T00:00:00",
+    "is_recurring": true,
+    "created_at": "2025-06-01T17:17:10.771972"
+  },
+  {
+    "text": "Monthly gym membership $49.99",
+    "amount": 49.99,
+    "category": "shopping",
+    "date": "2025-06-01T17:17:12.541463",
+    "is_recurring": true,
+    "created_at": "2025-06-01T17:17:12.541729"
+  },
+  {
+    "text": "Paid electric bill $120 for this month",
+    "amount": 120.0,
+    "category": "education",
+    "date": "2025-06-01T17:17:13.598360",
+    "is_recurring": false,
+    "created_at": "2025-06-01T17:17:13.600811"
+  },
+  {
+    "text": "Doctor's appointment copay $30",
+    "amount": 30.0,
+    "category": "food",
+    "date": "2025-06-01T17:17:15.410062",
+    "is_recurring": true,
+    "created_at": "2025-06-01T17:17:15.410263"
+  },
+  {
+    "text": "Bought new textbooks for $200",
+    "amount": 200.0,
+    "category": "education",
+    "date": "2025-06-01T17:17:16.257220",
+    "is_recurring": true,
+    "created_at": "2025-06-01T17:17:16.257434"
+  },
+  {
+    "text": "Movie tickets for Avengers $15 per person",
+    "amount": 15.0,
+    "category": "transport",
+    "date": "2025-06-01T17:17:17.382358",
+    "is_recurring": true,
+    "created_at": "2025-06-01T17:17:17.382604"
+  },
+  {
+    "text": "Weekly grocery shopping at Walmart: fruits $20, vegetables $15, meat $25",
+    "amount": 20.0,
+    "category": "food",
+    "date": "2025-06-01T17:17:18.124465",
+    "is_recurring": false,
+    "created_at": "2025-06-01T17:17:18.124639"
+  },
+  {
+    "text": "Uber ride from airport to home $45.50 yesterday",
+    "amount": 45.5,
+    "category": "shopping",
+    "date": "2025-06-01T17:17:18.977357",
+    "is_recurring": false,
+    "created_at": "2025-06-01T17:17:18.977595"
+  },
+  {
+    "text": "Annual Amazon Prime subscription renewed for $139",
+    "amount": 139.0,
+    "category": "education",
+    "date": "2025-06-01T17:17:19.724233",
+    "is_recurring": true,
+    "created_at": "2025-06-01T17:17:19.724410"
+  },
+  {
+    "text": "Spent $25.50 on lunch at cafeteria",
+    "amount": 25.5,
+    "category": "education",
+    "date": "2025-06-01T17:47:41.410023",
+    "is_recurring": true,
+    "created_at": "2025-06-01T17:47:41.412205"
+  },
+  {
+    "text": "Paid $150 for monthly train pass",
+    "amount": 150.0,
+    "category": "education",
+    "date": "2025-06-01T17:47:42.782255",
+    "is_recurring": true,
+    "created_at": "2025-06-01T17:47:42.782451"
+  },
+  {
+    "text": "Bought groceries for $85.75 on March 15, 2024",
+    "amount": 85.75,
+    "category": "education",
+    "date": "2024-03-15T00:00:00",
+    "is_recurring": true,
+    "created_at": "2025-06-01T17:47:44.026807"
+  },
+  {
+    "text": "Netflix subscription $15.99 charged on 2024-03-20",
+    "amount": 15.99,
+    "category": "education",
+    "date": "2024-03-20T00:00:00",
+    "is_recurring": true,
+    "created_at": "2025-06-01T17:47:45.470918"
+  },
+  {
+    "text": "Monthly gym membership $49.99",
+    "amount": 49.99,
+    "category": "shopping",
+    "date": "2025-06-01T17:47:46.728979",
+    "is_recurring": true,
+    "created_at": "2025-06-01T17:47:46.729174"
+  },
+  {
+    "text": "Paid electric bill $120 for this month",
+    "amount": 120.0,
+    "category": "education",
+    "date": "2025-06-01T17:47:48.819801",
+    "is_recurring": true,
+    "created_at": "2025-06-01T17:47:48.820020"
+  },
+  {
+    "text": "Doctor's appointment copay $30",
+    "amount": 30.0,
+    "category": "education",
+    "date": "2025-06-01T17:47:50.559170",
+    "is_recurring": true,
+    "created_at": "2025-06-01T17:47:50.559440"
+  },
+  {
+    "text": "Bought new textbooks for $200",
+    "amount": 200.0,
+    "category": "education",
+    "date": "2025-06-01T17:47:51.856669",
+    "is_recurring": true,
+    "created_at": "2025-06-01T17:47:51.857061"
+  },
+  {
+    "text": "Movie tickets for Avengers $15 per person",
+    "amount": 15.0,
+    "category": "education",
+    "date": "2025-06-01T17:47:53.015468",
+    "is_recurring": true,
+    "created_at": "2025-06-01T17:47:53.015639"
+  },
+  {
+    "text": "Weekly grocery shopping at Walmart: fruits $20, vegetables $15, meat $25",
+    "amount": 20.0,
+    "category": "food",
+    "date": "2025-06-01T17:47:54.353966",
+    "is_recurring": false,
+    "created_at": "2025-06-01T17:47:54.354183"
+  },
+  {
+    "text": "Uber ride from airport to home $45.50 yesterday",
+    "amount": 45.5,
+    "category": "shopping",
+    "date": "2025-06-01T17:47:55.494494",
+    "is_recurring": false,
+    "created_at": "2025-06-01T17:47:55.494704"
+  },
+  {
+    "text": "Annual Amazon Prime subscription renewed for $139",
+    "amount": 139.0,
+    "category": "education",
+    "date": "2025-06-01T17:47:56.729651",
+    "is_recurring": true,
+    "created_at": "2025-06-01T17:47:56.729847"
+  },
+  {
+    "text": "Spent $25.50 on lunch at cafeteria",
+    "amount": 25.5,
+    "category": "food",
+    "date": "2025-06-01T18:11:17.346350",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:17.349997"
+  },
+  {
+    "text": "Paid $150 for monthly train pass",
+    "amount": 150.0,
+    "category": "education",
+    "date": "2025-06-01T18:11:19.079500",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:19.079704"
+  },
+  {
+    "text": "Coffee and snacks $8.75",
+    "amount": 8.75,
+    "category": "education",
+    "date": "2025-06-01T18:11:20.330335",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:20.330585"
+  },
+  {
+    "text": "Bought groceries for $85.75 on March 15, 2024",
+    "amount": 85.75,
+    "category": "education",
+    "date": "2024-03-15T00:00:00",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:21.793990"
+  },
+  {
+    "text": "Netflix subscription $15.99 charged on 2024-03-20",
+    "amount": 15.99,
+    "category": "education",
+    "date": "2024-03-20T00:00:00",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:23.369567"
+  },
+  {
+    "text": "Paid rent $1200 for April 2024",
+    "amount": 1200.0,
+    "category": "education",
+    "date": "2025-06-01T18:11:24.978727",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:24.978949"
+  },
+  {
+    "text": "Yesterday's taxi ride $35",
+    "amount": 35.0,
+    "category": "food",
+    "date": "2025-06-01T18:11:26.416237",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:26.416426"
+  },
+  {
+    "text": "Monthly gym membership $49.99",
+    "amount": 49.99,
+    "category": "entertainment",
+    "date": "2025-06-01T18:11:28.025268",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:28.025453"
+  },
+  {
+    "text": "Paid electric bill $120 for this month",
+    "amount": 120.0,
+    "category": "education",
+    "date": "2025-06-01T18:11:29.901365",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:29.901708"
+  },
+  {
+    "text": "Weekly meal prep service $89.99",
+    "amount": 89.99,
+    "category": "education",
+    "date": "2025-06-01T18:11:31.406522",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:31.406713"
+  },
+  {
+    "text": "Quarterly insurance payment $450",
+    "amount": 450.0,
+    "category": "education",
+    "date": "2025-06-01T18:11:33.208951",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:33.209144"
+  },
+  {
+    "text": "Doctor's appointment copay $30",
+    "amount": 30.0,
+    "category": "food",
+    "date": "2025-06-01T18:11:35.383604",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:35.383778"
+  },
+  {
+    "text": "Dental cleaning $150 at smile dental",
+    "amount": 150.0,
+    "category": "other",
+    "date": "2025-06-01T18:11:37.090143",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:37.090430"
+  },
+  {
+    "text": "Monthly prescription refill $45.99 at CVS",
+    "amount": 45.99,
+    "category": "food",
+    "date": "2025-06-01T18:11:39.122594",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:39.122871"
+  },
+  {
+    "text": "Physical therapy session $75",
+    "amount": 75.0,
+    "category": "education",
+    "date": "2025-06-01T18:11:40.682899",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:40.683092"
+  },
+  {
+    "text": "Bought new textbooks for $200",
+    "amount": 200.0,
+    "category": "education",
+    "date": "2025-06-01T18:11:42.034036",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:42.034213"
+  },
+  {
+    "text": "Online course subscription $29.99 monthly",
+    "amount": 29.99,
+    "category": "education",
+    "date": "2025-06-01T18:11:43.374956",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:43.375160"
+  },
+  {
+    "text": "School supplies from Staples $65.50",
+    "amount": 65.5,
+    "category": "education",
+    "date": "2025-06-01T18:11:45.271311",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:45.271488"
+  },
+  {
+    "text": "Coding bootcamp payment $1500",
+    "amount": 1500.0,
+    "category": "food",
+    "date": "2025-06-01T18:11:47.363684",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:47.364042"
+  },
+  {
+    "text": "Movie tickets for Avengers $15 per person",
+    "amount": 15.0,
+    "category": "food",
+    "date": "2025-06-01T18:11:49.010332",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:49.010567"
+  },
+  {
+    "text": "Concert tickets $85 for next week",
+    "amount": 85.0,
+    "category": "education",
+    "date": "2025-06-01T18:11:50.922440",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:50.922638"
+  },
+  {
+    "text": "Disney+ annual subscription $79.99",
+    "amount": 79.99,
+    "category": "food",
+    "date": "2025-06-01T18:11:52.433659",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:52.433962"
+  },
+  {
+    "text": "Board game from Amazon $29.99",
+    "amount": 29.99,
+    "category": "food",
+    "date": "2025-06-01T18:11:53.861612",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:53.861788"
+  },
+  {
+    "text": "Weekly grocery shopping at Walmart: fruits $20, vegetables $15, meat $25",
+    "amount": 20.0,
+    "category": "food",
+    "date": "2025-06-01T18:11:55.773863",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:55.774049"
+  },
+  {
+    "text": "Target run: household items $45.99, clothes $89.99",
+    "amount": 45.99,
+    "category": "food",
+    "date": "2025-06-01T18:11:57.525559",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:57.525750"
+  },
+  {
+    "text": "Amazon order: books $35, electronics $129.99",
+    "amount": 35.0,
+    "category": "education",
+    "date": "2025-06-01T18:11:59.100473",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:11:59.100751"
+  },
+  {
+    "text": "Uber ride from airport to home $45.50 yesterday",
+    "amount": 45.5,
+    "category": "education",
+    "date": "2025-06-01T18:12:01.519246",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:12:01.519510"
+  },
+  {
+    "text": "Monthly parking pass $175",
+    "amount": 175.0,
+    "category": "education",
+    "date": "2025-06-01T18:12:03.417813",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:12:03.418349"
+  },
+  {
+    "text": "Car maintenance and oil change $89.99",
+    "amount": 89.99,
+    "category": "education",
+    "date": "2025-06-01T18:12:06.506387",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:12:06.506633"
+  },
+  {
+    "text": "Bus fare $2.75",
+    "amount": 2.75,
+    "category": "education",
+    "date": "2025-06-01T18:12:08.886109",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:12:08.886408"
+  },
+  {
+    "text": "Internet bill $79.99 for June",
+    "amount": 79.99,
+    "category": "food",
+    "date": "2025-06-01T18:12:12.004742",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:12:12.004915"
+  },
+  {
+    "text": "Water and sewage $65.50 quarterly",
+    "amount": 65.5,
+    "category": "other",
+    "date": "2025-06-01T18:12:13.744344",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:12:13.744531"
+  },
+  {
+    "text": "Electricity bill $110.25 due next week",
+    "amount": 110.25,
+    "category": "education",
+    "date": "2025-06-01T18:12:17.041450",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:12:17.041643"
+  },
+  {
+    "text": "Gas bill $45.75",
+    "amount": 45.75,
+    "category": "food",
+    "date": "2025-06-01T18:12:18.437178",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:12:18.437351"
+  },
+  {
+    "text": "Annual Amazon Prime subscription renewed for $139",
+    "amount": 139.0,
+    "category": "other",
+    "date": "2025-06-01T18:12:20.622572",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:12:20.622761"
+  },
+  {
+    "text": "Spotify family plan $14.99 monthly",
+    "amount": 14.99,
+    "category": "education",
+    "date": "2025-06-01T18:12:22.621334",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:12:22.621531"
+  },
+  {
+    "text": "iCloud storage upgrade $2.99",
+    "amount": 2.99,
+    "category": "food",
+    "date": "2025-06-01T18:12:24.509630",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:12:24.509932"
+  },
+  {
+    "text": "Gym membership renewal $50",
+    "amount": 50.0,
+    "category": "food",
+    "date": "2025-06-01T18:12:26.338972",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:12:26.339147"
+  },
+  {
+    "text": "Emergency car repair 499.99 dollars",
+    "amount": 499.99,
+    "category": "education",
+    "date": "2025-06-01T18:12:28.239503",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:12:28.239785"
+  },
+  {
+    "text": "Spent $25.50 on lunch at cafeteria",
+    "amount": 25.5,
+    "category": "food",
+    "date": "2025-06-01T18:12:59.946696",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:12:59.947931"
+  },
+  {
+    "text": "Paid $150 for monthly train pass",
+    "amount": 150.0,
+    "category": "food",
+    "date": "2025-06-01T18:13:01.757305",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:01.757508"
+  },
+  {
+    "text": "Coffee and snacks $8.75",
+    "amount": 8.75,
+    "category": "education",
+    "date": "2025-06-01T18:13:03.586066",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:03.586282"
+  },
+  {
+    "text": "Bought groceries for $85.75 on March 15, 2024",
+    "amount": 85.75,
+    "category": "education",
+    "date": "2024-03-15T00:00:00",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:05.137390"
+  },
+  {
+    "text": "Netflix subscription $15.99 charged on 2024-03-20",
+    "amount": 15.99,
+    "category": "education",
+    "date": "2024-03-20T00:00:00",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:07.125422"
+  },
+  {
+    "text": "Paid rent $1200 for April 2024",
+    "amount": 1200.0,
+    "category": "food",
+    "date": "2025-06-01T18:13:08.569256",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:08.569569"
+  },
+  {
+    "text": "Yesterday's taxi ride $35",
+    "amount": 35.0,
+    "category": "education",
+    "date": "2025-06-01T18:13:11.282231",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:11.282496"
+  },
+  {
+    "text": "Monthly gym membership $49.99",
+    "amount": 49.99,
+    "category": "education",
+    "date": "2025-06-01T18:13:12.783078",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:12.783316"
+  },
+  {
+    "text": "Paid electric bill $120 for this month",
+    "amount": 120.0,
+    "category": "education",
+    "date": "2025-06-01T18:13:14.883689",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:14.883940"
+  },
+  {
+    "text": "Weekly meal prep service $89.99",
+    "amount": 89.99,
+    "category": "education",
+    "date": "2025-06-01T18:13:18.520535",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:18.520718"
+  },
+  {
+    "text": "Quarterly insurance payment $450",
+    "amount": 450.0,
+    "category": "food",
+    "date": "2025-06-01T18:13:21.076090",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:21.076347"
+  },
+  {
+    "text": "Doctor's appointment copay $30",
+    "amount": 30.0,
+    "category": "food",
+    "date": "2025-06-01T18:13:22.661277",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:22.661622"
+  },
+  {
+    "text": "Dental cleaning $150 at smile dental",
+    "amount": 150.0,
+    "category": "education",
+    "date": "2025-06-01T18:13:25.690582",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:25.690863"
+  },
+  {
+    "text": "Monthly prescription refill $45.99 at CVS",
+    "amount": 45.99,
+    "category": "education",
+    "date": "2025-06-01T18:13:27.369020",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:27.369216"
+  },
+  {
+    "text": "Physical therapy session $75",
+    "amount": 75.0,
+    "category": "education",
+    "date": "2025-06-01T18:13:29.297578",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:29.297890"
+  },
+  {
+    "text": "Bought new textbooks for $200",
+    "amount": 200.0,
+    "category": "entertainment",
+    "date": "2025-06-01T18:13:30.666485",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:30.666685"
+  },
+  {
+    "text": "Online course subscription $29.99 monthly",
+    "amount": 29.99,
+    "category": "education",
+    "date": "2025-06-01T18:13:33.222600",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:33.222776"
+  },
+  {
+    "text": "School supplies from Staples $65.50",
+    "amount": 65.5,
+    "category": "education",
+    "date": "2025-06-01T18:13:36.068411",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:36.068713"
+  },
+  {
+    "text": "Coding bootcamp payment $1500",
+    "amount": 1500.0,
+    "category": "education",
+    "date": "2025-06-01T18:13:37.899084",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:37.899298"
+  },
+  {
+    "text": "Movie tickets for Avengers $15 per person",
+    "amount": 15.0,
+    "category": "food",
+    "date": "2025-06-01T18:13:39.166691",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:39.166866"
+  },
+  {
+    "text": "Concert tickets $85 for next week",
+    "amount": 85.0,
+    "category": "food",
+    "date": "2025-06-01T18:13:40.487450",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:40.487645"
+  },
+  {
+    "text": "Disney+ annual subscription $79.99",
+    "amount": 79.99,
+    "category": "education",
+    "date": "2025-06-01T18:13:41.767569",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:41.767746"
+  },
+  {
+    "text": "Board game from Amazon $29.99",
+    "amount": 29.99,
+    "category": "education",
+    "date": "2025-06-01T18:13:42.894991",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:42.895397"
+  },
+  {
+    "text": "Weekly grocery shopping at Walmart: fruits $20, vegetables $15, meat $25",
+    "amount": 20.0,
+    "category": "other",
+    "date": "2025-06-01T18:13:44.149953",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:44.150129"
+  },
+  {
+    "text": "Target run: household items $45.99, clothes $89.99",
+    "amount": 45.99,
+    "category": "education",
+    "date": "2025-06-01T18:13:45.437494",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:45.437771"
+  },
+  {
+    "text": "Amazon order: books $35, electronics $129.99",
+    "amount": 35.0,
+    "category": "education",
+    "date": "2025-06-01T18:13:46.851297",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:46.851474"
+  },
+  {
+    "text": "Uber ride from airport to home $45.50 yesterday",
+    "amount": 45.5,
+    "category": "education",
+    "date": "2025-06-01T18:13:48.490517",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:48.491155"
+  },
+  {
+    "text": "Monthly parking pass $175",
+    "amount": 175.0,
+    "category": "food",
+    "date": "2025-06-01T18:13:49.866682",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:49.866858"
+  },
+  {
+    "text": "Car maintenance and oil change $89.99",
+    "amount": 89.99,
+    "category": "entertainment",
+    "date": "2025-06-01T18:13:51.195644",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:51.196207"
+  },
+  {
+    "text": "Bus fare $2.75",
+    "amount": 2.75,
+    "category": "food",
+    "date": "2025-06-01T18:13:52.660587",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:52.660786"
+  },
+  {
+    "text": "Internet bill $79.99 for June",
+    "amount": 79.99,
+    "category": "other",
+    "date": "2025-06-01T18:13:53.901839",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:53.902121"
+  },
+  {
+    "text": "Water and sewage $65.50 quarterly",
+    "amount": 65.5,
+    "category": "education",
+    "date": "2025-06-01T18:13:55.479225",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:55.480048"
+  },
+  {
+    "text": "Electricity bill $110.25 due next week",
+    "amount": 110.25,
+    "category": "education",
+    "date": "2025-06-01T18:13:56.788002",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:56.788291"
+  },
+  {
+    "text": "Gas bill $45.75",
+    "amount": 45.75,
+    "category": "food",
+    "date": "2025-06-01T18:13:58.297036",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:58.297286"
+  },
+  {
+    "text": "Annual Amazon Prime subscription renewed for $139",
+    "amount": 139.0,
+    "category": "education",
+    "date": "2025-06-01T18:13:59.641744",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:13:59.641921"
+  },
+  {
+    "text": "Spotify family plan $14.99 monthly",
+    "amount": 14.99,
+    "category": "education",
+    "date": "2025-06-01T18:14:01.137520",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:14:01.137837"
+  },
+  {
+    "text": "iCloud storage upgrade $2.99",
+    "amount": 2.99,
+    "category": "food",
+    "date": "2025-06-01T18:14:03.411338",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:14:03.411525"
+  },
+  {
+    "text": "Gym membership renewal $50",
+    "amount": 50.0,
+    "category": "education",
+    "date": "2025-06-01T18:14:04.843426",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:14:04.843600"
+  },
+  {
+    "text": "Emergency car repair 499.99 dollars",
+    "amount": 499.99,
+    "category": "education",
+    "date": "2025-06-01T18:14:06.449122",
+    "is_recurring": true,
+    "created_at": "2025-06-01T18:14:06.449524"
+  }
+]
